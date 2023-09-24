@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **omkarghargeOG@Gmail.com**
 
-- 📄 Know about my experiences [https://bit.ly/3shgqLi](https://bit.ly/3shgqLi)
+- 📄 Know about my experiences [Find My Resume Here!](https://bit.ly/44Z71FS)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
