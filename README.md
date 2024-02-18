@@ -2,7 +2,7 @@
 
 <h1 align="center">Hi 👋, I'm Omkar Gharge</h1>
 <h3 align="center">A passionate Mobile Application Developer from India</h3>
-<img align="right" src="/codingfreak.gif" alt="Coding"  width="400" height="534" />
+<img align="right" src="/codingfreak.gif" alt="Coding"  width="220" />
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=theomkargharge&label=Profile%20views&color=0e75b6&style=flat" alt="theomkargharge" /> </p>
 
