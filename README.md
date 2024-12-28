@@ -6,7 +6,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=theomkargharge&label=Profile%20views&color=0e75b6&style=flat" alt="theomkargharge" /> </p>
 
-- 🔭 I’m currently working on [Cinco]()
+- 🔭 I’m currently working on [MAASSK]()
 
 - 🌱 I’m currently learning **Flutter, Dart**
 
@@ -14,7 +14,7 @@
 
 - 📫 How to reach me **omkarghargeOG@Gmail.com**
 
-- 📄 Know about my experiences [Find My Resume Here!](https://bit.ly/44Z71FS)
+- 📄 Know about my experiences [Find My Resume Here!](https://drive.google.com/file/d/1tPeyOPr15n5wgWgg3UX-lbiMIznO3hRu/view?usp=drive_link)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
