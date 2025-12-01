@@ -37,7 +37,7 @@
     <img src="https://static.vecteezy.com/system/resources/previews/023/986/970/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png" alt="LinkedIn - Omkar Gharge" height="40" width="40" />
   </a>
   <a href="https://leetcode.com/IAmOm45/" target="_blank">
-    <img src="./assets/leetcode.png" alt="LeetCode - IAmOm45" height="40" width="40" />
+    <img src="https://assets.leetcode.com/static_assets/public/images/LeetCode_logo_rvs.png" alt="LeetCode - IAmOm45" height="40" width="40" />
   </a>
   <a href="https://theomkargharge.github.io/OmkarGharge/" target="_blank">
     <img src="./assets/portfolio.png" alt="Portfolio - Omkar Gharge" height="40" width="40" />
