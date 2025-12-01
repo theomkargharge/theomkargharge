@@ -6,15 +6,15 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=theomkargharge&label=Profile%20views&color=0e75b6&style=flat" alt="theomkargharge" /> </p>
 
-- 🔭 I’m currently working on [MAASSK]()
+- 🔭 I’m currently working on [Akbar Travels](https://play.google.com/store/apps/details?id=com.akbartravel.AkbarTravels&hl=en_IN&pli=1)
 
-- 🌱 I’m currently learning **Flutter, Dart**
+- 🌱 I’m currently learning **Gen AI, Backend**
 
 - 👨‍💻 All of my projects are available at [https://github.com/theomkargharge](https://github.com/theomkargharge)
 
 - 📫 How to reach me **omkarghargeOG@Gmail.com**
 
-- 📄 Know about my experiences [Find My Resume Here!](https://drive.google.com/file/d/1tPeyOPr15n5wgWgg3UX-lbiMIznO3hRu/view?usp=drive_link)
+- 📄 Know about my experiences [Find My Resume Here!]()
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
