@@ -21,7 +21,7 @@
 * 🌱 Focused on expanding my expertise into **Generative AI** and **Backend Development** to transition towards building robust, full-stack applications.
 * 💻 All my public projects and open-source contributions are available here: **[My GitHub Profile](https://github.com/theomkargharge)**.
 * 📧 Best way to reach me: **omkarghargeOG@Gmail.com**
-* 📄 Explore my professional journey and experiences: **[Find My Resume Here!](YOUR_RESUME_LINK_HERE)**
+* 📄 Explore my professional journey and experiences: **[Find My Resume Here!](https://drive.google.com/file/d/1KtWmDOLuLZ9HEtj4-0xmXXMwen9yo3b9/view?usp=sharing)**
 
 ---
 
