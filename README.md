@@ -40,7 +40,7 @@
     <img src="https://assets.leetcode.com/static_assets/public/images/LeetCode_logo_rvs.png" alt="LeetCode - IAmOm45" height="40" width="40" />
   </a>
   <a href="https://theomkargharge.github.io/OmkarGharge/" target="_blank">
-    <img src="./assets/portfolio.png" alt="Portfolio - Omkar Gharge" height="40" width="40" />
+    <img src="https://drive.google.com/file/d/1DHad1hCVQroAxSysDrVVGWMFdZ6C_zJh/view?usp=sharing" alt="Portfolio - Omkar Gharge" height="40" width="40" />
   </a>
 </p>
 
