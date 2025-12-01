@@ -33,8 +33,8 @@
 
 <p align="left">
   <!-- Tip: save these icons inside your repo (e.g. ./assets/linkedin.png, ./assets/leetcode.png, ./assets/portfolio.png) for 100% reliability -->
-  <a href="https://static.vecteezy.com/system/resources/previews/023/986/970/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png" target="_blank">
-    <img src="./assets/linkedin.png" alt="LinkedIn - Omkar Gharge" height="40" width="40" />
+  <a href="https://www.linkedin.com/in/omkargharge/" target="_blank">
+    <img src="https://static.vecteezy.com/system/resources/previews/023/986/970/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png alt="LinkedIn - Omkar Gharge" height="40" width="40" />
   </a>
   <a href="https://leetcode.com/IAmOm45/" target="_blank">
     <img src="./assets/leetcode.png" alt="LeetCode - IAmOm45" height="40" width="40" />
