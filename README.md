@@ -79,6 +79,16 @@
   <img src="https://img.shields.io/badge/Porter-00BFFF?style=for-the-badge" alt="Porter" />
 </p>
 
+### 💳 Payment & E-commerce Integrations
+<p align="left">
+  <img src="https://img.shields.io/badge/Apple%20Pay-000000?style=for-the-badge&logo=apple-pay&logoColor=white" alt="Apple Pay" />
+  <img src="https://img.shields.io/badge/Razorpay-356CFA?style=for-the-badge&logo=razorpay&logoColor=white" alt="Razorpay" />
+  <img src="https://img.shields.io/badge/PhonePe-5E239D?style=for-the-badge&logo=phonepe&logoColor=white" alt="PhonePe" />
+  <img src="https://img.shields.io/badge/Tabby-009A64?style=for-the-badge" alt="Tabby (Buy Now, Pay Later)" />
+  <img src="https://img.shields.io/badge/Tamara-2C479B?style=for-the-badge" alt="Tamara (Buy Now, Pay Later)" />
+  <img src="https://img.shields.io/badge/Checkout.com-000000?style=for-the-badge" alt="Checkout.com" />
+</p>
+
 ### Development Tools & Version Control
 <p align="left">
   <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio" />
