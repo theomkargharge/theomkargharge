@@ -18,7 +18,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.linkedin.com/in/OmkarGharge/" target="blank"><img align="center" src="https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png" alt="https://www.linkedin.com/in/omkargharge/" height="40" width="40" /></a>
+<a href="https://www.linkedin.com/in/omkargharge/" target="blank"><img align="center" src="https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png" alt="https://www.linkedin.com/in/omkargharge/" height="40" width="40" /></a>
 <a href="https://leetcode.com/IAmOm45/" target="blank"><img align="center" src="https://i0.wp.com/happydevops.com/wp-content/uploads/2022/07/leetcode-logo.png?fit=512%2C512&ssl=1" alt="https://leetcode.com/iamom45/" height="40" width="40" /></a>
 <a href="https://theomkargharge.github.io/OmkarGharge/" target="blank"><img align="center" src="https://cdn-icons-png.flaticon.com/512/5217/5217492.png" alt="https://leetcode.com/iamom45/" height="40" width="40" /></a>
 
