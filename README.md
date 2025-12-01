@@ -33,13 +33,13 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/omkargharge/" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" width="50" height="50" style="margin: 10px;" />
+    <img src="https://static.vecteezy.com/system/resources/previews/023/986/970/non_2x/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png" width="50" height="50" style="margin: 10px;" />
   </a>
   <a href="https://leetcode.com/IAmOm45/" target="_blank">
-    <img src="https://i.ibb.co/Yd7ZpST/leetcode-icon.png" width="50" height="50" style="margin: 10px;" />
+    <img src="https://assets.leetcode.com/static_assets/public/images/LeetCode_logo_rvs.png" width="50" height="50" style="margin: 10px;" />
   </a>
   <a href="https://theomkargharge.github.io/OmkarGharge/" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/2301/2301129.png" width="50" height="50" style="margin: 10px;" />
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQFTmRjg10dXGg/profile-displayphoto-scale_400_400/B4DZrYVZwmJIAg-/0/1764566088718?e=1766016000&v=beta&t=_WS14TXg34z-WmZICTGDJXeFTRnX464U3AVbIgrDmUs" width="50" height="50" style="margin: 10px;" />
   </a>
 </p>
 
