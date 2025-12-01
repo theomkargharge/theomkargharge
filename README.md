@@ -1,34 +1,77 @@
-[![MasterHead](/BlackTechnologyLinkedInBanner.png)](https://theomkargharge.github.io/OmkarGharge/)
+<!-- Top Banner -->
+<p align="center">
+  <!-- If the image is in the root of this repo -->
+  <img src="./BlackTechnologyLinkedInBanner.png" alt="Omkar Gharge Banner" width="100%" />
+  <!-- Or if you keep it in assets: ./assets/BlackTechnologyLinkedInBanner.png -->
+</p>
 
 <h1 align="center">Hi 👋, I'm Omkar Gharge</h1>
 <h3 align="center">A passionate Mobile Application Developer from India</h3>
-<img align="right" src="/codingfreak.gif" alt="Coding"  width="220" />
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=theomkargharge&label=Profile%20views&color=0e75b6&style=flat" alt="theomkargharge" /> </p>
-
-- 🔭 I’m currently working on [Akbar Travels](https://play.google.com/store/apps/details?id=com.akbartravel.AkbarTravels&hl=en_IN&pli=1)
-
-- 🌱 I’m currently learning **Gen AI, Backend**
-
-- 👨‍💻 All of my projects are available at [https://github.com/theomkargharge](https://github.com/theomkargharge)
-
-- 📫 How to reach me **omkarghargeOG@Gmail.com**
-
-- 📄 Know about my experiences [Find My Resume Here!]()
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/omkargharge/" target="blank"><img align="center" src="https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png" alt="https://www.linkedin.com/in/omkargharge/" height="40" width="40" /></a>
-<a href="https://leetcode.com/IAmOm45/" target="blank"><img align="center" src="https://i0.wp.com/happydevops.com/wp-content/uploads/2022/07/leetcode-logo.png?fit=512%2C512&ssl=1" alt="https://leetcode.com/iamom45/" height="40" width="40" /></a>
-<a href="https://theomkargharge.github.io/OmkarGharge/" target="blank"><img align="center" src="https://cdn-icons-png.flaticon.com/512/5217/5217492.png" alt="https://leetcode.com/iamom45/" height="40" width="40" /></a>
-
+<p align="center">
+  <!-- Coding GIF -->
+  <img src="./codingfreak.gif" alt="Coding" width="260" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/217740/android.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://cdn-icons-png.flaticon.com/512/8304/8304381.png" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://www.iconbunny.com/icons/media/catalog/product/1/7/1755.9-css-icon-iconbunny.jpg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://cdn-icons-png.flaticon.com/512/136/136530.png" alt="javascript" width="40" height="40"/>  </p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=theomkargharge&label=Profile%20views&color=0e75b6&style=flat" alt="theomkargharge" />
+</p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=theomkargharge&show_icons=true&locale=en&layout=compact" alt="theomkargharge" /></p>
+---
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=theomkargharge&show_icons=true&locale=en" alt="theomkargharge" /></p>
+### 👨‍💻 About Me
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=theomkargharge&" alt="theomkargharge" /></p>
+- 🔭 I’m currently working on **[Akbar Travels](https://play.google.com/store/apps/details?id=com.akbartravel.AkbarTravels&hl=en_IN&pli=1)**
+- 🌱 I’m currently learning **Gen AI** and **Backend**
+- 💼 All of my projects are available here: **[GitHub Profile](https://github.com/theomkargharge)**
+- 📫 How to reach me: **omkarghargeOG@Gmail.com**
+- 📄 Know about my experiences: **[Find My Resume Here!](YOUR_RESUME_LINK_HERE)**
+
+---
+
+### 🌐 Connect with Me
+
+<p align="left">
+  <!-- Tip: save these icons inside your repo (e.g. ./assets/linkedin.png, ./assets/leetcode.png, ./assets/portfolio.png) for 100% reliability -->
+  <a href="https://www.linkedin.com/in/omkargharge/" target="_blank">
+    <img src="./assets/linkedin.png" alt="LinkedIn - Omkar Gharge" height="40" width="40" />
+  </a>
+  <a href="https://leetcode.com/IAmOm45/" target="_blank">
+    <img src="./assets/leetcode.png" alt="LeetCode - IAmOm45" height="40" width="40" />
+  </a>
+  <a href="https://theomkargharge.github.io/OmkarGharge/" target="_blank">
+    <img src="./assets/portfolio.png" alt="Portfolio - Omkar Gharge" height="40" width="40" />
+  </a>
+</p>
+
+---
+
+### 🛠️ Languages & Tools
+
+<p align="left">
+  <img src="https://www.svgrepo.com/show/217740/android.svg" alt="Android" width="40" height="40"/> 
+  <img src="https://cdn-icons-png.flaticon.com/512/8304/8304381.png" alt="C++" width="40" height="40"/> 
+  <img src="https://www.iconbunny.com/icons/media/catalog/product/1/7/1755.9-css-icon-iconbunny.jpg" alt="CSS3" width="40" height="40"/> 
+  <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart" width="40" height="40"/> 
+  <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="40" height="40"/> 
+  <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="40" height="40"/> 
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/> 
+  <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML5" width="40" height="40"/> 
+  <img src="https://cdn-icons-png.flaticon.com/512/136/136530.png" alt="JavaScript" width="40" height="40"/> 
+</p>
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=theomkargharge&show_icons=true&locale=en&theme=tokyonight" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=theomkargharge&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=theomkargharge&theme=tokyonight" alt="GitHub Streak" />
+</p>
