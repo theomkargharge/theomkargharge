@@ -95,12 +95,6 @@
 
 <div align="center">
   <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=theomkargharge&show_icons=true&locale=en&theme=tokyonight&hide_border=true&title_color=94d3f4&icon_color=79c0ff" alt="GitHub Stats" />
-  </p>
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=theomkargharge&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true&title_color=94d3f4&icon_color=79c0ff" alt="Top Languages" />
-  </p>
-  <p>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=theomkargharge&theme=tokyonight&hide_border=true&stroke=000000&background=0D1117" alt="GitHub Streak" />
   </p>
 </div>
