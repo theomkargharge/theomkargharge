@@ -34,7 +34,7 @@
     <a href="https://leetcode.com/IAmOm45/" target="_blank">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
   </a>
-    <a href="https://theomkargharge.github.io/OmkarGharge/" target="_blank">
+    <a href="https://theomkargharge.github.io/Portfolio/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-202331?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
   </a>
 </p>
