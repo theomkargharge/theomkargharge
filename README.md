@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./BlackTechnologyLinkedInBanner.png" alt="Omkar Gharge Banner" width="100%" />
+  <img href="https://drive.google.com/file/d/1BjOBjhr6pfAFBpiMH7aIIzSiyhytaBC0/view?usp=sharing" alt="Omkar Gharge Banner" width="100%" />
 </div>
 
 <h1 align="center">Hi 👋, I'm Omkar Gharge</h1>
