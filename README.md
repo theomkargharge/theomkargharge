@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://drive.google.com/file/d/1BjOBjhr6pfAFBpiMH7aIIzSiyhytaBC0/view?usp=sharing" 
+  <img src="https://drive.google.com/uc?export=view&id=1BjOBjhr6pfAFBpiMH7aIIzSiyhytaBC0" 
        alt="Omkar Gharge Banner" 
        width="100%" />
 </div>
