@@ -2,9 +2,9 @@
 """
 Builds the animated SVG cards used by the profile README.
 
-Every card is built twice, into assets/dark and assets/light. The cards have
-transparent backgrounds so they sit on whatever GitHub theme the visitor uses;
-README.md picks the matching variant with <picture>.
+Every card sits on its own white, rounded panel, so it reads the same on every
+GitHub theme (light, dark, dimmed, high contrast) and in browsers that force a
+dark mode. The cards are written to assets/.
 
 Everything the cards say lives in the CONTENT section below. Edit it, then run:
 
@@ -128,9 +128,9 @@ STACK = [  # (title, [(label, simple-icons slug or None)])
 # ════════════════════════════════════════════════════════════════════════════
 # THEMES  (brand from theomkargharge.github.io/Portfolio)
 # ════════════════════════════════════════════════════════════════════════════
-# Card backgrounds are transparent, so the dark palette must read on every dark
-# GitHub theme (#0d1117 default, #212830 dimmed, #010409 high contrast) and the
-# light palette on white.
+# Cards are drawn in the light palette on a white panel (CARD_BG). The dark
+# palette is kept for objects that stay dark devices or UIs: the phone, the map
+# and the debug overlay.
 
 THEMES = {
     'dark': dict(
@@ -157,7 +157,9 @@ THEMES = {
     ),
 }
 PASTEL = ('#8ec5ff', '#b4a2ff', '#f5b8ff')   # brand gradient on dark surfaces, in both themes
-THEME = 'dark'
+CARD_BG, CARD_STROKE, CARD_R = '#ffffff', 'rgba(0,0,0,.1)', 24
+PAD = 32   # white space around each card's content, inside its panel
+THEME = 'light'
 
 
 def apply_theme(name):
@@ -168,7 +170,7 @@ def apply_theme(name):
 
 @contextmanager
 def theme(name):
-    """Temporarily switch palette, e.g. for objects that stay dark in both themes (phone, map)."""
+    """Temporarily switch palette, e.g. for objects that stay dark on the white cards (phone, map)."""
     prev = THEME
     apply_theme(name)
     try:
@@ -177,12 +179,12 @@ def theme(name):
         apply_theme(prev)
 
 
-apply_theme('dark')
+apply_theme('light')
 
 # Type scale. Cards are 1200 wide and GitHub shows them ~850px wide, so
 # these render at roughly 70%: 14.5 → 10px labels, 19 → 13px body copy.
 LABEL, META, BODY, CHIP = 14.5, 14, 19, 14.5
-M = 8   # side margin; cards are borderless so content lines up with the README column
+M = 8   # side margin inside the content area (PAD adds the panel's own padding)
 
 FAM = {'s': 'G', 'm': 'GM', 'i': 'IS'}
 FONT_FILES = {'G': ('geist', 'normal', '100 900'),
@@ -437,23 +439,27 @@ BASE_CSS = (
 
 
 def doc(w, h, body, css='', defs='', title='', glows=''):
-    """A borderless, transparent card."""
+    """A white, rounded card. Content is laid out in a w×h area, inset by PAD on every side."""
     t = escape(title, {'"': '&quot;'})
+    W, H = w + 2 * PAD, h + 2 * PAD
     edge = (f'<radialGradient id="edgeR"><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#000"/>'
             f'</radialGradient><mask id="edge" maskUnits="userSpaceOnUse" x="0" y="0" width="{w}" height="{h}">'
             f'<rect width="{w}" height="{h}" fill="url(#edgeR)"/></mask>') if glows else ''
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{w}" '
-            f'height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{t}"><title>{escape(title)}</title>'
+    # The content gets its own nested viewport, so px transform-origins in the CSS stay in its coordinates.
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" '
+            f'height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{t}"><title>{escape(title)}</title>'
             f'<style>{font_css()}{BASE_CSS}{css}</style><defs>{common_defs()}{edge}{defs}</defs>'
-            + (f'<g mask="url(#edge)">{glows}</g>' if glows else '') + f'{body}</svg>')
+            f'<clipPath id="card"><rect width="{W}" height="{H}" rx="{CARD_R}"/></clipPath>'
+            f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="{CARD_R}" fill="{CARD_BG}" stroke="{CARD_STROKE}"/>'
+            f'<g clip-path="url(#card)"><svg x="{PAD}" y="{PAD}" width="{w}" height="{h}" overflow="visible">'
+            + (f'<g mask="url(#edge)">{glows}</g>' if glows else '') + f'{body}</svg></g></svg>')
 
 
 def save(name, svg):
-    out = os.path.join(ASSETS, THEME)
-    os.makedirs(out, exist_ok=True)
-    with open(os.path.join(out, name), 'w') as fh:
+    os.makedirs(ASSETS, exist_ok=True)
+    with open(os.path.join(ASSETS, name), 'w') as fh:
         fh.write(svg)
-    print(f'  assets/{THEME}/{name:<22} {len(svg) / 1024:6.1f} KB')
+    print(f'  assets/{name:<22} {len(svg) / 1024:6.1f} KB')
 
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -624,7 +630,7 @@ def screen_ride(SW, SH):
 
 
 def phone(px, py, pw=268, ph=548):
-    """A phone that cycles through three app screens. It stays a dark device in both themes."""
+    """A phone that cycles through three app screens. It stays a dark device on the white card."""
     sx, sy, sw, sh = px + 10, py + 10, pw - 20, ph - 20
     defs = (f'<clipPath id="scr"><rect x="{sx}" y="{sy}" width="{sw}" height="{sh}" rx="37"/></clipPath>'
             '<linearGradient id="tryBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#17161f"/>'
@@ -1055,7 +1061,7 @@ def tryware_visual(X, Y, PW, PH):
 
 
 def buggy_visual(X, Y, PW, PH):
-    """A dark map panel (it stays a map UI in both themes)."""
+    """A dark map panel (it stays a map UI on the white card)."""
     with theme('dark'):
         o = [f'<clipPath id="mapc"><rect x="{X}" y="{Y}" width="{PW}" height="{PH}" rx="18"/></clipPath>',
              f'<g clip-path="url(#mapc)"><rect x="{X}" y="{Y}" width="{PW}" height="{PH}" fill="#0d0f13"/>',
@@ -1143,7 +1149,7 @@ def work_perf():
     b.append(cf)
     PW, PH = 400, 268
     X, Y = W - M - PW, 16
-    with theme('dark'):   # the overlay is an in-app UI, dark in both themes
+    with theme('dark'):   # the overlay is an in-app UI, so it stays dark
         o = [f'<g filter="url(#shadow)"><rect x="{X}" y="{Y}" width="{PW}" height="{PH}" rx="16" fill="{GLASS}" stroke="{LINE2}"/></g>',
              pulse_dot(X + 22, Y + 26, 3.5, GREEN), T(X + 34, Y + 30.5, 'PERFORMANCE GUARD', 'm', 12, 500, FG3, ls=1.4),
              f'<rect x="{X + PW - 70}" y="{Y + 13}" width="54" height="24" rx="7" fill="rgba(252,217,168,.1)" stroke="rgba(252,217,168,.3)"/>',
@@ -1289,15 +1295,13 @@ def buttons():
 
 if __name__ == '__main__':
     print('Building cards' + (' (per-card font subsets)…' if _ft_subset else '…'))
-    for name in THEMES:
-        apply_theme(name)
-        hero()
-        about()
-        experience()
-        work_akbar()
-        work_halves()
-        work_perf()
-        stack()
-        footer()
-        buttons()
+    hero()
+    about()
+    experience()
+    work_akbar()
+    work_halves()
+    work_perf()
+    stack()
+    footer()
+    buttons()
     print('Done.')
