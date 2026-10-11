@@ -1,116 +1,50 @@
-<div align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1BjOBjhr6pfAFBpiMH7aIIzSiyhytaBC0" 
-       alt="Omkar Gharge Banner" 
-       width="100%" />
-</div>
+<!-- The cards below are hand-built animated SVGs. To update them, edit tools/build.py and run: python3 tools/build.py -->
 
-<h1 align="center">Hi 👋, I'm Omkar Gharge</h1>
-<h3 align="center">Mobile Application Developer | Flutter & Android Enthusiast 🇮🇳</h3>
-
-<div align="center">
-  <img src="./codingfreak.gif" alt="Coding" width="200" />
-</div>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=theomkargharge&label=Profile%20views&color=417C9B&style=for-the-badge" alt="theomkargharge profile views" />
-</div>
-
----
-
-## 🚀 About Me
-
-* 💼 Currently, I am a Mobile Application Developer contributing to **[Akbar Travels](https://play.google.com/store/apps/details?id=com.akbartravel.AkbarTravels&hl=en_IN&pli=1)**, focusing on high-performance mobile solutions using Flutter and native Android.
-* 🌱 Focused on expanding my expertise into **Generative AI** and **Backend Development** to transition towards building robust, full-stack applications.
-* 💻 All my public projects and open-source contributions are available here: **[My GitHub Profile](https://github.com/theomkargharge)**.
-* 📧 Best way to reach me: **omkarghargeOG@Gmail.com**
-* 📄 Explore my professional journey and experiences: **[Find My Resume Here!](https://drive.google.com/file/d/1KtWmDOLuLZ9HEtj4-0xmXXMwen9yo3b9/view?usp=sharing)**
-
----
-
-## 🌐 Connect & Collaborate
+<a href="https://theomkargharge.github.io/Portfolio/">
+  <img src="assets/hero.svg" width="100%" alt="Omkar Gharge, Flutter & GenAI Engineer in Pune, India. Mobile apps for millions, made smarter with AI. 3.5+ years shipping Flutter, 1M+ downloads on one app, 4 apps live on the stores, 6 payment gateways." />
+</a>
 
 <p align="center">
-    <a href="https://www.linkedin.com/in/omkargharge/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-    <a href="https://leetcode.com/IAmOm45/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
-  </a>
-    <a href="https://theomkargharge.github.io/Portfolio/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-202331?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
-  </a>
+  <a href="https://theomkargharge.github.io/Portfolio/"><img src="assets/btn-portfolio.svg" height="44" alt="Portfolio" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/omkargharge/"><img src="assets/btn-linkedin.svg" height="44" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://theomkargharge.github.io/Portfolio/Omkar_Gharge_Resume.pdf"><img src="assets/btn-resume.svg" height="44" alt="Résumé" /></a>&nbsp;
+  <a href="mailto:omkarghargeog@gmail.com"><img src="assets/btn-email.svg" height="44" alt="Email" /></a>&nbsp;
+  <a href="https://leetcode.com/IAmOm45/"><img src="assets/btn-leetcode.svg" height="44" alt="LeetCode" /></a>
 </p>
 
----
+<br />
 
-## 🛠️ Tech Stack & Tools
+<img src="assets/about.svg" width="100%" alt="About Omkar, written as a Dart class: Flutter & GenAI Engineer based in Pune, India with 3.5 years shipping. Shipped Akbar Travels (1M+ downloads), TryWare AI (GenAI virtual try-on, built solo) and Buggy (ride-hailing rider + driver apps)." />
 
-### Primary Mobile Stack & Languages
-<p align="left">
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
-  <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+<br /><br />
+
+<img src="assets/experience.svg" width="100%" alt="Experience: Flutter Developer at Benzy Infotech (Akbar Travels Group), Jan 2025 to present. Flutter Developer at Movilidad Technologies, Jun 2023 to Dec 2024. B.Tech Computer Science, DBATU, 2019 to 2023." />
+
+<br /><br />
+
+<a href="https://play.google.com/store/apps/details?id=com.akbartravel.AkbarTravels&hl=en_IN">
+  <img src="assets/work-akbar.svg" width="100%" alt="Akbar Travels: flights and hotels app with 1M+ downloads, built and maintained in Flutter for iOS and Android with a real-time AI support chat." />
+</a>
+
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.crazzydev.tryware.dev"><img src="assets/work-tryware.svg" width="49%" alt="TryWare AI: generative-AI virtual try-on app, built solo from idea to Google Play. Flutter, FastAPI, OpenAI gpt-image, Docker." /></a>
+  <a href="https://play.google.com/store/apps/details?id=com.buggy"><img src="assets/work-buggy.svg" width="49%" alt="Buggy and Buggy Sarathi: ride-hailing rider and driver apps built from scratch. Route accuracy up 30%, response time down 40%." /></a>
 </p>
 
-### Web Fundamentals
-<p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+<a href="https://github.com/theomkargharge/performance_guard">
+  <img src="assets/work-perf.svg" width="100%" alt="performance_guard: an open-source, debug-only Flutter widget that overlays rebuild counts, frame drops and memory usage, with zero cost in release mode." />
+</a>
+
+<br /><br />
+
+<img src="assets/stack.svg" width="100%" alt="Toolkit: Flutter, Dart, Swift, GetX, Riverpod, Bloc; LangChain, LangGraph, RAG, AI agents, OpenAI, Gemini; Python, FastAPI, Firebase, Supabase, WebSocket, AWS S3, Docker; Razorpay, PhonePe, Apple Pay, Checkout.com, Tabby, Tamara; CleverTap, Google Maps, AdMob; Claude Code, Xcode, Android Studio." />
+
+<br /><br />
+
+<a href="mailto:omkarghargeog@gmail.com">
+  <img src="assets/footer.svg" width="100%" alt="Let's build something people love to use. Email omkarghargeog@gmail.com." />
+</a>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=theomkargharge&label=PROFILE%20VIEWS&color=b4a2ff&style=flat-square" alt="Profile views" />
 </p>
-
-### Backend, Databases & APIs
-<p align="left">
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Firestore-4285F4?style=for-the-badge&logo=googledrive&logoColor=white" alt="Firestore" />
-  <img src="https://img.shields.io/badge/RESTful%20API-darkgreen?style=for-the-badge" alt="RESTful API" />
-  <img src="https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white" alt="AWS S3" />
-</p>
-
-### State Management & Integrations
-<p align="left">
-  <img src="https://img.shields.io/badge/GetX-58C0B9?style=for-the-badge" alt="GetX" />
-  <img src="https://img.shields.io/badge/Provider-7E52FF?style=for-the-badge" alt="Provider" />
-  <img src="https://img.shields.io/badge/Google%20Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Google Maps" />
-  <img src="https://img.shields.io/badge/AdMob-3788F9?style=for-the-badge&logo=googleadmob&logoColor=white" alt="AdMob" />
-  <img src="https://img.shields.io/badge/CleverTap-3C4257?style=for-the-badge" alt="CleverTap" />
-  <img src="https://img.shields.io/badge/Shiprocket-FF5733?style=for-the-badge" alt="Shiprocket" />
-  <img src="https://img.shields.io/badge/Porter-00BFFF?style=for-the-badge" alt="Porter" />
-</p>
-
-### 💳 Payment & E-commerce Integrations
-<p align="left">
-  <img src="https://img.shields.io/badge/Apple%20Pay-000000?style=for-the-badge&logo=apple-pay&logoColor=white" alt="Apple Pay" />
-  <img src="https://img.shields.io/badge/Razorpay-356CFA?style=for-the-badge&logo=razorpay&logoColor=white" alt="Razorpay" />
-  <img src="https://img.shields.io/badge/PhonePe-5E239D?style=for-the-badge&logo=phonepe&logoColor=white" alt="PhonePe" />
-  <img src="https://img.shields.io/badge/Tabby-009A64?style=for-the-badge" alt="Tabby (Buy Now, Pay Later)" />
-  <img src="https://img.shields.io/badge/Tamara-2C479B?style=for-the-badge" alt="Tamara (Buy Now, Pay Later)" />
-  <img src="https://img.shields.io/badge/Checkout.com-000000?style=for-the-badge" alt="Checkout.com" />
-</p>
-
-### Development Tools & Version Control
-<p align="left">
-  <img src="https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white" alt="Android Studio" />
-  <img src="https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white" alt="Xcode" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white" alt="BitBucket" />
-</p>
-
----
-
-## 📊 GitHub Performance
-
-<div align="center">
-  <p>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=theomkargharge&theme=tokyonight&hide_border=true&stroke=000000&background=0D1117" alt="GitHub Streak" />
-  </p>
-</div>
-
----
-### Thanks for stopping by! Let's connect and build something amazing together. 🚀
